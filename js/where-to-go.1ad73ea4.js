@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkkuoni=self.webpackChunkkuoni||[]).push([[9152],{2403:function(n,t,u){u(6774),u(806),new(function(){function n(){this.getDOM()}return n.prototype.getDOM=function(){},n}())}},function(n){n.O(0,[7064,6026,7239],(function(){return 2403,n(n.s=2403)})),n.O()}]);

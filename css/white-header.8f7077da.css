@@ -1,0 +1,64 @@
+header {
+    background: #fff;
+    border-bottom: 1px solid #e5e5e5
+}
+
+header .container svg path {
+    fill: #37424a
+}
+
+@media(min-width: 761px) {
+    header .container nav ul li {
+        color: #37424a
+    }
+
+    header .container nav ul li a {
+        color: #37424a
+    }
+}
+
+header .container ul.header__cta li {
+    color: #37424a
+}
+
+header .container ul.header__cta li.phone-number .light-icon {
+    display: none
+}
+
+header .container ul.header__cta li.phone-number .dark-icon {
+    display: block
+}
+
+header .container ul.header__cta li a {
+    color: #37424a
+}
+
+header .container ul.header__cta li#mobile-menu-trigger svg line {
+    stroke: #37424a
+}
+
+main>div:nth-child(6) {
+    margin-top: 120px
+}
+
+@media(max-width: 930px) {
+    main>div:nth-child(6) {
+        margin-top: 107px
+    }
+}
+
+@media(max-width: 760px) {
+    main>div:nth-child(6) {
+        margin-top: 80px
+    }
+}
+
+main:has(header.scrolled)>div:nth-child(6) {
+    margin-top: 70px
+}
+
+@media(max-width: 760px) {
+    main:has(header.scrolled)>div:nth-child(6) {
+        margin-top: 56px
+    }
+}
